@@ -4,7 +4,7 @@ public class BrowserCommands extends Base
 {
 
 public void verifyCommands() 
-{
+	{
 		
 		
 		String title = driver.getTitle();// to get title of the tab -> o/p - Obsqura Testing
@@ -14,10 +14,10 @@ public void verifyCommands()
 		System.out.println(url);
 		
 		//getWindowHandles - used to get handles of multiple windows
-		String handleId = driver.getWindowHandle(); //getWindowHandle - to get one windowhandle -> o/p - C5845C569C0155A3BE43F418FE186A8F
+		String handleId = driver.getWindowHandle(); //getWindowHandle - to get one window handle -> o/p - C5845C569C0155A3BE43F418FE186A8F
 		System.out.println(handleId);
 		
-		String source = driver.getPageSource(); //to get the page source
+		String source = driver.getPageSource(); //to get the page source code
 		System.out.println(source);
 		
 	}

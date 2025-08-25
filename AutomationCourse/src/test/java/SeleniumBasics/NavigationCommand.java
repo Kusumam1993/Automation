@@ -3,12 +3,12 @@ package SeleniumBasics;
 public class NavigationCommand extends Base
 {
 public void verifyCommands()
-{
+	{
 		
-		//to - used to navigate to different pages of same app or to different app
+		//to - used to navigate to different pages of same app or to different applications
 		driver.navigate().to("https://www.amazon.in/"); //navigate from obsqura site to amazon site
 		driver.navigate().back(); //navigate back to Obsqura
-		driver.navigate().forward(); // navigate to Amazon
+		driver.navigate().forward(); // navigate to Amazon using forward() ,because we know the path already.
 		driver.navigate().refresh(); // refresh the page
 	}
 
